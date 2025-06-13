@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run app.js",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/app.js",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "name": "Run anagram.js",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/arrays/anagram.js",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

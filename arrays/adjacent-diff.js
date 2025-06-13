@@ -1,6 +1,7 @@
 /**
- * @param {number[]} nums
- * @return {number}
+3423. Maximum Difference Between Adjacent Elements in a Circular Array
+Given a circular array nums, find the maximum absolute difference between adjacent elements.
+Note: In a circular array, the first and last elements are adjacent.
  */
 var maxAdjacentDistance = function (nums) {
     const n = nums.length;
